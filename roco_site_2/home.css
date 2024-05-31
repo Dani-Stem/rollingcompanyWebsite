@@ -47,6 +47,14 @@ html{
     background-size: 35.5vw;
 }
 
+.cityscape_180 {
+    background-image: url("city_180.jpg");
+    background-repeat: repeat-x;
+    height: 15vw;
+    width: 100%;
+    background-size: 35.5vw;
+}
+
 .instruction_title{
     color:#FFFFFF;
     font-size: 1vw;
@@ -54,14 +62,15 @@ html{
     padding-bottom: 2vw;
     width: 100%;
     padding-left: 1vw;
+    padding-top: 10vw;
 }
 
 .instructions{
     color:#FFFFFF;
     font-size: 1vw;
     height: auto;
-    padding-bottom: 2vw;
-    width: 100%;
+    padding: 2vw;
+    width: 96%;
     display: flex;
 }
 
@@ -77,10 +86,47 @@ html{
 
 .puzzleTitle{
 
-    background-color: #FFFFFF;
+   color: #FFFFFF;
     font-size: 1vw;
     padding: 2vw;
 
+}
+
+
+.puzzle{
+    background-color: #FFFFFF;
+    width: 100%;
+    font-size: 2vw;
+}
+
+.puzzle_left{
+    padding-left: 15%;
+    width: 35%;
+    height: 24vw;
+    float: left;
+    background-color: #FFFFFF;
+    font-size: 1.7vw;
+}
+
+.puzzle_right{
+    padding-left: 1%;
+    padding-right: 14%;
+    width: 35%;
+    height: 24vw;
+    float: right;
+    background-color: #FFFFFF;
+    font-size: 1.7vw;
+}
+
+.puzzle_pic {
+    padding-top: 3vw;
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    color: #FFFFFF;
+    font-size: .9vw;
 }
 
 a:link { 
@@ -99,3 +145,4 @@ a:active {
     text-decoration: none; 
     color: #FFFFFF;
 }
+
